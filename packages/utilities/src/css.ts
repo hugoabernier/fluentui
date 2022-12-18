@@ -24,7 +24,7 @@ export interface ISerializableObject {
 export type ICssInput = string | ISerializableObject | IDictionary | null | undefined | boolean;
 
 /**
- * Concatination helper, which can merge class names together. Skips over falsey values.
+ * Concatenation helper, which can merge class names together. Skips over falsey values.
  *
  * @public
  */
